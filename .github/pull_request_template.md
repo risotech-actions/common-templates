@@ -1,12 +1,3 @@
----
-name: Pull Request
-about: Create a pull request to contribute to the project
-title: ''
-labels: ''
-assignees: ''
-
----
-
 ## 📝 Description
 <!-- Briefly describe the changes in this PR -->
 
@@ -41,7 +32,7 @@ assignees: ''
 ```
 
 ## ✅ Checklist
-<!-- Mark completed items -->
+<!-- Mark completed items by replacing [ ] with [x] -->
 - [ ] Code follows coding standards
 - [ ] Tests added/updated
 - [ ] All tests pass
@@ -58,6 +49,9 @@ assignees: ''
 
 ## 📸 Screenshots
 <!-- For UI changes, include before/after screenshots -->
+1. Pic 1...
+2. Pic 2...
+3. ...
 
 ## 💡 Additional Notes
 <!-- Any additional information for reviewers -->
