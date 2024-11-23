@@ -1,3 +1,5 @@
+<!-- Thank you for helping us out: your efforts mean a great deal to the project! -->
+
 ## 📝 Description
 <!-- Briefly describe the changes in this PR -->
 
