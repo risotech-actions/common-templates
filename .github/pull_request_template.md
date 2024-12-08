@@ -1,4 +1,5 @@
 <!-- Thank you for helping us out: your efforts mean a great deal to the project! -->
+#
 
 ## 📝 Description
 <!-- Briefly describe the changes in this PR -->
@@ -9,39 +10,51 @@
 - Related to #issue_number
 
 ## 📋 Changelog Entry
-<!-- Write a concise changelog entry for this PR, examples:
+<!-- Common changelog entry title examples:
 🚀 Add support for Django 5.0
 🐛 Fix validation in upload form
 📝 Update API endpoints documentation
--->
+♻️ Refactor authentication system
+✨ Add new dashboard features
+🔒 Improve login security
+🎨 Update UI components
+⚡️ Improve query performance
+🗃️ Add new database migrations
+🔧 Update configuration settings
+🧪 Add new test cases
+📦 Update package dependencies
+🚮 Remove deprecated functions
+🌐 Add i18n support
+💄 Improve UI/UX design
 
-## 🏷 Type of Change
-<!-- Mark the appropriate type of change by replacing [ ] with [x] -->
-- [ ] 💥 Breaking change (fix or feature that would cause existing functionality to not work as expected)
-- [ ] 🚀 New feature (non-breaking change which adds functionality)
-- [ ] 🐛 Bug fix (non-breaking change which fixes an issue)
-- [ ] 📝 Documentation update (changes to documentation only)
-- [ ] 🎨 Style (changes that do not affect the code's behavior - formatting, spacing, etc)
-- [ ] 🧹 Refactor (changes that neither fix a bug nor add a feature)
-- [ ] 🔧 Maintenance (changes to build process, dependencies, configuration etc)
-- [ ] ⚡ Performance (performance improvements)
-- [ ] ✅ Test (adding or modifying tests)
-
-## 🔍 Breaking Changes
-<!-- If there are breaking changes, list the changes in detail and provide migration instructions -->
-```
+Changelog entry description examples"
+```text
 < none | breaking changes details >
 ```
+-->
 
 ## ✅ Checklist
-<!-- Mark completed items by replacing [ ] with [x] -->
-- [ ] Code follows coding standards
-- [ ] Tests added/updated
-- [ ] All tests pass
-- [ ] Documentation has been updated
-- [ ] PR title follows conventional commits format (`type(scope): description`)
-- [ ] Changelog entry added
-- [ ] Breaking changes (if any) documented fully
+<!-- Mark completed items by replacing [] with [x] -->
+
+### Code Changes
+
+- [] Code follows Django style guide & passes linting
+- [] Database migrations included (if needed)
+- [] Tests added/updated & passing
+- [] Docstrings/comments added for new code
+
+### Security & Performance
+
+- [] Security checks passed (auth, permissions)
+- [] Database queries optimized (no N+1 issues)
+- [] No sensitive data exposed
+
+### Documentation & Review
+
+- [] PR title follows conventional format
+- [] Changelog entry added with emoji
+- [] Breaking changes documented (if any)
+- [] Tested locally in development
 
 ## 🧪 How to Test
 <!-- Describe the steps to test your changes -->
